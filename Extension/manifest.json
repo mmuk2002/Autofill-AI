@@ -1,0 +1,36 @@
+{
+	"manifest_version": 3,
+	"name": "FillIt",
+	"version": "1.0",
+	"description": "Autofills job application forms",
+	"permissions": [
+		"clipboardWrite",
+		"activeTab",
+		"notifications",
+		"contextMenus",
+		"storage",
+		"scripting"
+	],
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*",
+				"<all_urls>",
+				"file:///C:*"
+			],
+			"run_at": "document_start",
+			"js": [
+				"contentScript.js"
+			]
+		}
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {},
+	"homepage_url": "https://github.com/mmuk2002/FillIt"
+}
