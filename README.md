@@ -1,9 +1,7 @@
-What we have: 
-We have a script that will generate a AI response based on two parameters: context, and question. 
-We have some basic HTML code that will update our online database based on user input.
-
-What we have to do:
-What I'm thinking is, when we click the extension, it shows that same HTML page that we just saw. But additionally, it will have a button called Autofill, which when you click, it will call the Autofill method from our contentScript. 
-
-For making the Autofill method work: 
-We can hardcode the question prompt.
+1. Start the backend by running the App.py file.
+2. Load unpacked extension by going to chrome extensions, enable developer mode, load unpacked, and load the extension folder.
+3. Start GPT-4 free https://github.com/xiangsx/gpt4free-ts and run it on the default port.
+4. Feel free to test it out on the provided test.html or any site of your choosing!
+Examples: ![Autofill Demonstration](https://github.com/mmuk2002/Autofill-AI/assets/33865770/d5117f7c-ea7a-4dc5-98b6-2784a39ab230)
+![Entering Information](https://github.com/mmuk2002/Autofill-AI/assets/33865770/4f5ce380-8dad-4d0d-9118-3bbf148ae2cb)
+![Meta Example](https://github.com/mmuk2002/Autofill-AI/assets/33865770/f1175071-0a96-4b98-a2d5-8077a60368c1)
