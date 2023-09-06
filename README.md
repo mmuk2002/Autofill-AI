@@ -1,3 +1,5 @@
+Here's the first prototype of my job autofill extension which won 2500$ in funding from the NSF:
+
 1. Start the backend by running the App.py file.
 2. Load unpacked extension by going to chrome extensions, enable developer mode, load unpacked, and load the extension folder.
 3. Start GPT-4 free https://github.com/xiangsx/gpt4free-ts and run it on the default port.
